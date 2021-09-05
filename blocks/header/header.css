@@ -1,0 +1,14 @@
+.header {
+    border: 1px solid red;
+    
+max-width: 1184px;
+min-height: 52px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 28px;
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: right;
+
+}

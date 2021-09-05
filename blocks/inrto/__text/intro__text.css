@@ -1,0 +1,16 @@
+.intro__text {
+    border: 1px solid yellow;
+    
+max-width: 690px;
+
+
+font-family: inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 163%;
+margin-top: 40px;
+margin-bottom: 33px;
+
+color: #FFFFFF;
+}

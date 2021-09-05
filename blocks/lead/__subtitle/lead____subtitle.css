@@ -1,0 +1,19 @@
+.lead__subtitle {
+    border: 1px solid blue;
+    max-width: 640px;
+min-height: 72px;
+
+
+font-family: inter;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 64px;
+margin-top: 0;
+}
