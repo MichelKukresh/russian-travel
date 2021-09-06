@@ -1,0 +1,12 @@
+.place {
+    border: hotpink 1px solid;
+    max-width: 984px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 152px 460px;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin-bottom: 80px;
+}

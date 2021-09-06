@@ -1,0 +1,12 @@
+.place__title {
+    border: hotpink 1px solid;
+    
+max-width: 460px;
+font-family: inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+margin: 0;
+color: #FFFFFF;
+}

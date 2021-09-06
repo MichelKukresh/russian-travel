@@ -1,0 +1,6 @@
+.place__website {
+    border: hotpink 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
