@@ -1,7 +1,17 @@
 .header__logo {
 width: 176px;
 height: 52px;
-left: 48px;
+left: 0px;
 border: 1px solid red;
 position: absolute;
 }
+
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+    
+}
+

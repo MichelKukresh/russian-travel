@@ -1,0 +1,5 @@
+.cover__background {
+    border: chartreuse 1px solid;
+    position: absolute;
+    z-index: 1;
+}

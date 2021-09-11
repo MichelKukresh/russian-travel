@@ -14,3 +14,11 @@ margin-bottom: 33px;
 
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        width: 100%;
+        
+    }
+    
+}
