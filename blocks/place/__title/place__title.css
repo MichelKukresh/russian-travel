@@ -1,7 +1,7 @@
 .place__title {
     border: hotpink 1px solid;
     
-max-width: 460px;
+max-width: 100%;
 font-family: inter;
 font-style: normal;
 font-weight: 900;
@@ -10,3 +10,19 @@ line-height: 76px;
 margin: 0;
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+

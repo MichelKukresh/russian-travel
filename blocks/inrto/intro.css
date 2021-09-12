@@ -13,7 +13,7 @@ margin-right: auto;
     .intro{
         margin-top: 88px;
         max-width: 720px;
-        width: 100% - 48px;
+        width: calc(100% - 48px);
         
     }
     
