@@ -1,7 +1,13 @@
 .place__website {
-    border: hotpink 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: end;
     width: 100%;
+}
+
+@media (max-width: 767px) {
+    .place__website {
+        margin-left: 16px;
+    }
+    
 }

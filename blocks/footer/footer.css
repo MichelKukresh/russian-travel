@@ -7,9 +7,29 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 92px;
     margin-bottom: 24px;
+}
 
+@media (max-width: 1279px) {
+    .footer {
+        width: calc(100% - 96px);
+    }    
+}
 
+@media (max-width: 1023px) {
+    .footer {
+        width: calc(100% - 48px); 
+        margin-top: 88px;     
+    }    
+}
 
-
+@media (max-width: 767px) {
+    .footer {
+        max-width: 180px;
+        flex-direction: column;
+        margin-left: 16px; 
+        margin-top: 64px;   
+        align-items: flex-start;  
+    }    
 }

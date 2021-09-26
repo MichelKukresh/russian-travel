@@ -1,16 +1,13 @@
-.lead__image {
-    border: 1px solid blue;
-    /*max-width: 984px;*/
+.lead__image {   
     width: 100%;
-max-height: 615px;
-margin-bottom: 8px;
-background-image: url("/images/Vector_2.8_Stroke.svg");
+    max-height: 615px;
+    margin-bottom: 8px;
+    background-image: url("/images/Vector_2.8_Stroke.svg");
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
         max-width: 928px;
-        max-height: 580px;
-    
+        max-height: 580px;    
     }
 }

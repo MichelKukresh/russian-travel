@@ -1,8 +1,11 @@
 .cover {
-    border: chartreuse 1px solid;
-    
+    margin-top: 12px;
+}
+
+/*.cover {
     max-width: 1184px;
-    min-height: 740px;
+    width: 100%;    
+    height: calc(640px + (740 - 640) * ( (100vw - 1024px) / ( 1280 - 1024) ));
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;
@@ -11,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;    
 }
 
 .cover::before {
@@ -25,12 +29,26 @@
     opacity: 0.3;
     z-index: 1;
     transition: ease 0.5s opacity;
-    
-
 }
 
-.cover:hover:before {
-    
+.cover:hover:before {    
     opacity: 0.8;
-
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        height: calc(480px + (640 - 480) * ( (100vw - 768px) / ( 1024 - 768) ));
+    }    
+}
+
+@media screen and (max-width: 762px) {
+    .cover {
+        height: calc(200px + (480 - 200) * ( (100vw - 320px) / ( 768 - 320) ));
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 200px;
+    }    
+}*/
