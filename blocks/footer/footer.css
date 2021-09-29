@@ -19,8 +19,8 @@
 
 @media (max-width: 1023px) {
     .footer {
-        width: calc(100% - 48px); 
-        margin-top: 88px;     
+        width: calc(100% - 48px);
+        margin-top: 88px;
     }    
 }
 
@@ -28,8 +28,8 @@
     .footer {
         max-width: 180px;
         flex-direction: column;
-        margin-left: 16px; 
-        margin-top: 64px;   
-        align-items: flex-start;  
+        margin-left: 16px;
+        margin-top: 64px;
+        align-items: flex-start;
     }    
 }
