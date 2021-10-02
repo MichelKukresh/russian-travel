@@ -1,53 +1,52 @@
 .cover__background {
-    background-image: url("../../../images/cover__background.jpg");
-    max-width: 1184px;
-    display: flex;
-    min-height: 740px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-    text-decoration: none;
-    position: relative;
-    z-index: 1;
+  background-image: url("../../../images/cover__background.jpg");
+  max-width: 1184px;
+  display: flex;
+  min-height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
 }
 
 .cover__background::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.3;
-    z-index: -1;
-    transition: opacity 1s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 1s ease;
 }
 
-.cover__background:hover:after{
-    opacity: 80%;
+.cover__background:hover:after {
+  opacity: 80%;
 }
 
 @media (max-width: 1279px) {
-    .cover__background {
-        max-width: 1024px;
-        min-height: 640px;
-    }
+  .cover__background {
+    max-width: 1024px;
+    min-height: 640px;
+  }
 }
 
 @media (max-width: 1023px) {
-    .cover__background {
-        max-width: 100%;
-        min-height: 480px;
-    } 
+  .cover__background {
+    max-width: 100%;
+    min-height: 480px;
+  }
 }
 
 @media (max-width: 767px) {
-    .cover__background {
-        max-width: 100%;
-        min-height: 200px;
-    }
+  .cover__background {
+    max-width: 100%;
+    min-height: 200px;
+  }
 }
-

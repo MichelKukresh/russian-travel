@@ -1,3 +1,9 @@
 .cover {
-    margin-top: 12px;
+  margin-top: 12px;
+}
+
+@media (max-width: 500px) {
+  .cover {
+    margin-top: 66px;
+  }
 }
