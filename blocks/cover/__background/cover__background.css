@@ -11,6 +11,7 @@
   text-decoration: none;
   position: relative;
   z-index: 1;
+  background-position: center;
 }
 
 .cover__background::after {
@@ -20,7 +21,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: #2A2C2F;;
   opacity: 0.3;
   z-index: -1;
   transition: opacity 1s ease;
@@ -45,8 +46,7 @@
 }
 
 @media (max-width: 767px) {
-  .cover__background {
-    max-width: 100%;
+  .cover__background {    
     min-height: 200px;
   }
 }
