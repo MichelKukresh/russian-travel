@@ -1,8 +1,7 @@
 @import url("../styles/normalize.css");
+@import url("../fonts/InterWeb/inter.css");
 
 @import url("../blocks/body/body.css");
-
-
 
 @import url("../blocks/header/header.css");
 
@@ -21,9 +20,6 @@
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__title/intro__title.css");
-
-
-@import url("../fonts/InterWeb/inter.css");
 
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");

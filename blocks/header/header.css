@@ -5,8 +5,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 28px;
-  display: grid;
-  grid-template-columns: max-content 1fr max-content;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   background: #2a2c2f;
 }
